@@ -103,6 +103,13 @@ const PricingComponent = () => {
       </div>
 
       {/* circle pattern */}
+      <div
+        className={`z-10 transition-all duration-700 ${
+          isVisible
+            ? "opacity-100 transform translate-y-0"
+            : "opacity-0 transform -translate-y-10"
+        }`}
+      >
       <div className="absolute top-16 left-1 w-full h-[120px] md:h-[160px] overflow-hidden flex justify-center">
         <div className="w-[80%] md:w-full h-full">
           <Image
@@ -116,6 +123,7 @@ const PricingComponent = () => {
             priority
           />
         </div>
+      </div>
       </div>
 
       {/* intro heading */}
