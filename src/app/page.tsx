@@ -325,7 +325,7 @@ const PricingComponent = () => {
               <button
                 className={`w-auto px-8 md:px-12 rounded-full py-3 text-sm font-bold transition-colors cursor-pointer ${
                   darkMode
-                    ? "bg-[hsl(174,86%,45%)] text-gray-800 hover:bg-teal-500"
+                    ? "bg-[hsl(174,86%,45%)] text-white hover:bg-teal-500"
                     : "bg-[hsl(227,35%,25%)] text-[hsl(226,100%,87%)] hover:text-white"
                 }`}
               >
